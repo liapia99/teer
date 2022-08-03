@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200;300&family=Montserrat:wght@442&family=Source+Sans+Pro&display=swap");
+.six {
+  height: 500px;
+  margin-left: 650px;
+  margin-top: -400px;
+}
+
+/* CSS */
+.btn-mo {
+  margin-top: 20px;
+  margin-left: -800px;
+
+  background-color: #0bc9fe;
+  border: solid transparent;
+  border-radius: 5px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Fira Sans Condensed";
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  outline: none;
+  overflow: visible;
+  padding: 5px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 12%;
+}
+
+.btn-mo:after {
+  background-clip: padding-box;
+  background-color: #1cb0f6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+}
+
+.btn-mo:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.btn-mo:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.btn-mo:disabled {
+  cursor: auto;
+}
